@@ -1,0 +1,88 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  width: 100vw;
+  background-color: #FAF8FC;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+nav{
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 1rem 5rem;
+}
+
+.direction ul{
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  color: gray;
+  text-align: center;
+}
+
+.active{
+  color: #F4A7B9;
+  border-bottom: 2px solid #F4A7B9;
+}
+
+.logo img{
+  width: 6rem;
+  padding: .3rem;
+  border: 2px solid #F4A7B9;
+  border-radius: 50%;
+}
+
+.username{
+  color: #F4A7B9;
+  background-color: #FDE4EB;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  border: 1px solid #F4A7B9;
+}
+
+main{
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.left-content{
+  width: 50%;
+}
+
+.left-content p{
+  color: gray;
+}
+
+.left-content button{
+  all: unset;
+  cursor: pointer;
+  background-color: #F4A7B9;
+  color: white;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  margin-top: 2rem;
+}
+
+.right-content{
+  width: 30%;
+}
+
+.diffrent-style-text{
+  color: #F4A7B9;
+}
